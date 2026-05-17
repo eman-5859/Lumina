@@ -4,7 +4,8 @@ import axios from 'axios';
 import { ThemeToggle } from '../App';
 import './Chatbot.css';
 
-const BACKEND_URL = 'http://localhost:5005';
+//const BACKEND_URL = 'http://localhost:5005';
+const BACKEND_URL = 'https://eman-sarfraz-lumina-backend.hf.space';
 
 const Chatbot = () => {
   const navigate = useNavigate();
